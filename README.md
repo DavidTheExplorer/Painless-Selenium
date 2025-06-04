@@ -11,7 +11,15 @@ All you need to do is create your `WebDriver` like this:
 ```java
 WebDriver driver = WebDriverFactory.painless(yourWebDriver);
 ```
-and that's it.
+and suddenly this is possible:
+```java
+driver.get("www.website.com");
+WebElement element = driver.findElement(someLocator);
+driver.get("www.anotherWebsite.com");
+        
+//without PainlessSelenium -> throws StaleElementReferenceException
+System.out.println(element.getText());
+```
 
 ## Behind the scenes
 The library wraps `WebDriver` methods that produce `WebElement` objects with smart wrappers - so your code doesn't change!\
