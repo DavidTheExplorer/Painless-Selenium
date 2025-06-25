@@ -1,6 +1,6 @@
-package dte.painless_selenium.elements;
+package dte.smartselenium.elements;
 
-import dte.painless_selenium.delegation.DelegatingWebElement;
+import dte.smartselenium.delegation.DelegatingWebElement;
 import org.jspecify.annotations.Nullable;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Dimension;
