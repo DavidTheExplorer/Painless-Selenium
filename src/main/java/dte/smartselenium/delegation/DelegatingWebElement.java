@@ -1,4 +1,4 @@
-package dte.painless_selenium.delegation;
+package dte.smartselenium.delegation;
 
 import org.jspecify.annotations.Nullable;
 import org.openqa.selenium.By;

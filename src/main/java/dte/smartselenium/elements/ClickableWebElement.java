@@ -1,6 +1,6 @@
-package dte.painless_selenium.elements;
+package dte.smartselenium.elements;
 
-import dte.painless_selenium.delegation.DelegatingWebElement;
+import dte.smartselenium.delegation.DelegatingWebElement;
 import org.openqa.selenium.ElementClickInterceptedException;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
